@@ -16,9 +16,9 @@
   float: right;
 }
 
-.grow {
+/* .grow {
   flex-grow: 3;
-}
+} */
 
 .hover:hover {
   text-decoration: line-through;
