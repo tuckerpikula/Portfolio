@@ -16,6 +16,10 @@
   float: right;
 }
 
+.grow {
+  flex-grow: 3;
+}
+
 .hover:hover {
   text-decoration: line-through;
   text-decoration-color: solid black;
