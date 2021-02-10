@@ -36,17 +36,12 @@
       text-decoration-thickness: 1px;
     }
 
-    #office {
-      width: 304px;
+    .aesthetics {
+      width: 100%;
       height: 456px;
       object-fit: cover;
     }
 
-    #aesthetics {
-      width: 304px;
-      height: 456px;
-      object-fit: cover;
-    }
 
     @media only screen and (max-width: 425px) {
       .space {
@@ -62,6 +57,10 @@
       text-align: center;
       margin-top: 4%;
       font-family: 'Red Hat Display', sans-serif;
+    }
+
+    .under {
+      margin-top: 4%;
     }
   </style>
 </head>
@@ -89,15 +88,15 @@
       </div>
     </div>
   </nav>
-  
+
   <main class="container pics">
     <div class="row">
       <div class="col-sm-6">
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src=https://www.gardeningknowhow.com/wp-content/uploads/2020/03/home-office-plants.jpg id="office"
-                class="d-block w-100" alt="office">
+              <img src=https://www.gardeningknowhow.com/wp-content/uploads/2020/03/home-office-plants.jpg
+                class="d-block w-100 aesthetics" alt="office">
             </div>
           </div>
         </div>
@@ -108,7 +107,7 @@
             <div class="carousel-item active">
               <img
                 src=https://juniperoats.com/wp-content/uploads/2019/01/JuniperOats_blogposts-15-houseplants-for-minimalists.jpg
-                id="aesthetics" class="d-block w-100 space" alt="plants">
+                class="d-block w-100 space aesthetics" alt="plants">
             </div>
           </div>
         </div>
@@ -118,8 +117,28 @@
           <p id="info">Hello, my name is Tucker Pikula. I am a former Division 1 athlete and I played volleyball for the
             University of California, Irvine. I'm very excited to continue my education at UC Irvine and deepen my
             knowledge in full-stack web development.</p>
-        </div>
-      </div>
+          <div class="row under">
+            <div class="col-sm-6">
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src=https://www.tinostone.com/wp-content/uploads/2017/05/header-marbella-v.jpg
+                      class="d-block w-100 aesthetics" alt="house">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src=https://cdn.suwalls.com/wallpapers/cars/porsche-977-turbo-35493-1920x1200.jpg
+                      class="d-block w-100 space aesthetics" alt="car">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
   </main>
 
 
