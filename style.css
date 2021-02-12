@@ -57,10 +57,11 @@
   height: 5px;
 }
 
-.whatever {
+/* Later additions */
+/* .whatever {
   flex-grow: 3;
 }
 
 .whatever2 {
   flex-grow: 2;
-}
+} */
