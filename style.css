@@ -16,10 +16,6 @@
   float: right;
 }
 
-/* .grow {
-  flex-grow: 3;
-} */
-
 .hover:hover {
   text-decoration: line-through;
   text-decoration-color: solid black;
@@ -41,6 +37,7 @@
   margin-top: 4%;
 }
 
+
 #info {
   text-align: center;
   margin-top: 4%;
@@ -52,7 +49,8 @@
 }
 
 .socials {
-  color: solid black;
+  color: solid black !important;
+  justify-content: center;
 }
 
 #favoc {
